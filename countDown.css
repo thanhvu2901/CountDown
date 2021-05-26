@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./snow.jpg");
+    background-size: 100%;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    font-family: 'Pattaya', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countDown-container {
+    display: flex;
+}
+
+.countdown-el {
+    margin: 0 20px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.big-text {
+    font-size: 3rem;
+    font-family: 'Pattaya', sans-serif;
+}
